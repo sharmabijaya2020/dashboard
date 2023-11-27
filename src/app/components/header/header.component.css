@@ -1,0 +1,15 @@
+nav {
+    display: block;
+}
+
+.navbar-default, .navbar {
+    background-color: #5BC1AF;
+    border-color: transparent;
+}
+
+.navbar {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}

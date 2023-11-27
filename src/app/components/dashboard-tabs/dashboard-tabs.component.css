@@ -1,0 +1,54 @@
+.abc {
+    margin: 20px;
+}
+
+.demo-table1 {
+    width: 45%;
+    min-width: 45%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.item1 {
+    grid-area: header;
+    /* margin: 20px; */
+}
+
+.item2 {
+    grid-area: menu;
+    /* margin: 20px; */
+}
+
+.item3 {
+    grid-area: main;
+    /* margin: 20px; */
+}
+
+.item4 {
+    grid-area: right;
+    /* margin: 20px; */
+}
+
+.item5 {
+    grid-area: footer;
+    /* margin: 20px; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header' 'menu main main main right right' 'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #eaeff3;
+    padding: 10px;
+    margin: 20px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}

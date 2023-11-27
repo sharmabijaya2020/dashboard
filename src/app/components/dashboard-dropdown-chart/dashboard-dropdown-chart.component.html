@@ -1,0 +1,29 @@
+<mat-form-field>
+    <mat-label>Channel</mat-label>
+    <mat-select [formControl]="toppings" multiple>
+      @for (topping of toppingList; track topping) {
+        <mat-option [value]="topping">{{topping}}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+
+ 
+
+  <mat-form-field>
+    <mat-label>Report Type</mat-label>
+    <mat-select [formControl]="reports">
+      @for (report of reportList; track report) {
+        <mat-option [value]="report">{{report}}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+
+
+  <mat-form-field>
+    <mat-label>Bill Date</mat-label>
+    <mat-select [formControl]="billDates">
+      @for (bill of billDateList; track bill) {
+        <mat-option [value]="bill">{{bill}}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
