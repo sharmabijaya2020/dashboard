@@ -1,22 +1,18 @@
 <mat-tab-group>
-    <mat-tab label="OnDemand Vs Bill">
+    <mat-tab label="Quote to Bill - Next Bill">
         <ng-template matTabContent>
-          <!-- <div class="wrapper">
-            <div>
-              <app-dashboard-table></app-dashboard-table>
-            </div>
-            <div>Two</div>
-          </div> -->
           <div class="grid-container">
-            <div class="item1">Header</div>
-            <div class="item2">
+            <div class="item1">
               <app-dashboard-dropdown-chart></app-dashboard-dropdown-chart>
             </div>
+            
             <div class="item3">
-              <app-dashboard-table></app-dashboard-table>
+              <app-dashboard-button></app-dashboard-button>
+              <app-dashboard-line-chart></app-dashboard-line-chart>
             </div>  
             <div class="item4">
-              <app-dashboard-line-chart></app-dashboard-line-chart>
+              
+              <app-dashboard-table></app-dashboard-table>
             </div>
             <div class="item5">Footer</div>
           </div>
@@ -25,11 +21,11 @@
       <h1>hello</h1>
   </ng-template> -->
     </mat-tab>
-    <mat-tab label="Preorder Vs Bill">
+    <mat-tab label="Quote to Bill - Steady State">
       <ng-template matTabContent>
         <div class="grid-container">
           <div class="item1">Header</div>
-          <div class="item2"></div>
+          <!-- <div class="item2"></div> -->
           <div class="item3">
             <app-dashboard-table></app-dashboard-table>
           </div>  
@@ -40,9 +36,14 @@
         </div>
       </ng-template>
     </mat-tab>
-    <mat-tab label="PostOrder vs Bill">
+    <mat-tab label="Quote to NBS - Next Bill">
       <ng-template matTabContent>
         Content 3 - Loaded: 
+      </ng-template>
+    </mat-tab>
+    <mat-tab label="Quote to NBS - Steady State">
+      <ng-template matTabContent>
+        Content 4 - Loaded: 
       </ng-template>
     </mat-tab>
   </mat-tab-group>

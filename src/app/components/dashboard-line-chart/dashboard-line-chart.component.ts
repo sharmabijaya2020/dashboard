@@ -23,6 +23,24 @@ export class DashboardLineChartComponent {
   public lineChartData: ChartConfiguration<'line'>['data'] = {
     labels: [
       '',
+      'Oct 18, 23',
+      'Oct 19, 23',
+      'Oct 20, 23',
+      'Oct 21, 23',
+      'Oct 22, 23',
+      'Oct 23, 23',
+      'Oct 24, 23',
+      'Oct 25, 23',
+      'Oct 26, 23',
+      'Oct 27, 23',
+      'Oct 28, 23',
+      'Oct 29, 23',
+      'Oct 30, 23',
+      'Nov 01, 23',
+      'Nov 02, 23',
+      'Nov 03, 23',
+      'Nov 03, 23',
+      'Nov 04, 23',
       'Nov 05, 23',
       'Nov 06, 23',
       'Nov 07, 23',
@@ -46,7 +64,7 @@ export class DashboardLineChartComponent {
     ],
     datasets: [
       {
-        data: [ 90, 95, 87, 96, 97, 98, 93,95,97,98,99,90, 95, 89, 96, 97, 98, 93,95,97,98,99 ],
+        data: [ 90, 95, 87, 96, 97, 98, 93,95,97,98,99,90, 95, 89, 96, 97, 98, 93,95,97,98,99,90, 95, 87, 96, 97, 98, 93,95,97,98,99,90, 95, 89, 96, 97, 98, 93,95,97,98,99 ],
         label: 'Quote vs NBS VS Bill Match % Trend',
         backgroundColor: 'rgba(77,83,96,0.2)',
         borderColor: 'rgba(77,83,96,1)',
@@ -56,7 +74,7 @@ export class DashboardLineChartComponent {
         pointHoverBorderColor: 'rgba(77,83,96,1)',
       },
       {
-        data: [ 83, 87, 90, 87, 94, 97, 98,94,94,95,96,98, 93, 96, 93, 95, 87, 88,98,93,95,91 ],
+        data: [ 97, 87, 90, 87, 94, 97, 98,94,94,95,96,98, 93, 96, 93, 95, 87, 88,98,93,95,91,83, 87, 90, 87, 94, 97, 98,94,94,95,96,98, 93, 96, 93, 95, 87, 88,98,93,95,91 ],
         label: '',
         pointBackgroundColor: 'rgba(77,83,96,1)',
         pointHoverBackgroundColor: '#fff',

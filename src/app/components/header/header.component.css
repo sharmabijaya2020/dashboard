@@ -9,7 +9,7 @@ nav {
 
 .navbar {
     position: relative;
-    min-height: 80px;
+    height: 80px;
     margin-bottom: 0;
     border: 1px solid transparent;
 }

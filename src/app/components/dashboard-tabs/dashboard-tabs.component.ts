@@ -9,6 +9,7 @@ import { DashboardTableComponent } from '../dashboard-table/dashboard-table.comp
 import { DashboardLineChartComponent } from '../dashboard-line-chart/dashboard-line-chart.component';
 import { DashboardBarChartComponent } from '../dashboard-bar-chart/dashboard-bar-chart.component';
 import { DashboardDropdownChartComponent } from '../dashboard-dropdown-chart/dashboard-dropdown-chart.component';
+import { DashboardButtonComponent } from '../dashboard-button/dashboard-button.component';
 
 export interface ExampleTab {
   label: string;
@@ -24,7 +25,8 @@ export interface ExampleTab {
     DashboardTableComponent,
     DashboardLineChartComponent,
     DashboardBarChartComponent,
-    DashboardDropdownChartComponent
+    DashboardDropdownChartComponent,
+    DashboardButtonComponent
   ],
   templateUrl: './dashboard-tabs.component.html',
   styleUrl: './dashboard-tabs.component.css'

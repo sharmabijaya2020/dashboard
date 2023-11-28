@@ -1,4 +1,4 @@
-<mat-form-field>
+<mat-form-field class = "abcd">
     <mat-label>Channel</mat-label>
     <mat-select [formControl]="toppings" multiple>
       @for (topping of toppingList; track topping) {
@@ -6,10 +6,9 @@
       }
     </mat-select>
   </mat-form-field>
-
  
 
-  <mat-form-field>
+  <mat-form-field class = "abcd">
     <mat-label>Report Type</mat-label>
     <mat-select [formControl]="reports">
       @for (report of reportList; track report) {
@@ -19,7 +18,7 @@
   </mat-form-field>
 
 
-  <mat-form-field>
+  <mat-form-field class = "abcd">
     <mat-label>Bill Date</mat-label>
     <mat-select [formControl]="billDates">
       @for (bill of billDateList; track bill) {

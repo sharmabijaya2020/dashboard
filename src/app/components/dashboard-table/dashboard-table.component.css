@@ -7,7 +7,7 @@
   }
   .demo-table {
     width:45%;
-    min-width: 45%;
+    min-width: 85%;
   }
   
   .mat-column-demo-position {
@@ -19,7 +19,7 @@
   
   .mat-column-demo-name {
     padding-left: 16px;
-    font-size: 20px;
+    font-size: 10px;
   }
   
   .mat-column-demo-weight {

@@ -13,12 +13,12 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 })
 export class DashboardDropdownChartComponent {
   toppings = new FormControl('');
-  toppingList: string[] = ['VZW-ACSS', 'VZW-EROES', 'VZW-INTERNETSERVICES', 'VZW-IVR', 'VZW-MFA', 'VZW-MFA-CHATBOT', 'VZW-NETACE', 'VZW-TS-BMW'];
+  toppingList: string[] = ['Select All','Chat-Store', 'Omni-B2B', 'Omni-Care', 'Omni-D2D-Tab', 'Omni-Indirect'];
   
   reports = new FormControl('');
   reportList: string[] = ['Daily', 'Weekly', 'Monthly'];
   
   billDates = new FormControl('');
-  billDateList: string[] = ['Last Six month', 'Last Month'];
+  billDateList: string[] = ['Six month', 'Last Month', 'YTD', 'Custom Date'];
   
 }
