@@ -64,8 +64,8 @@ export class DashboardLineChartComponent {
     ],
     datasets: [
       {
-        data: [ 90, 95, 87, 96, 97, 98, 93,95,97,98,99,90, 95, 89, 96, 97, 98, 93,95,97,98,99,90, 95, 87, 96, 97, 98, 93,95,97,98,99,90, 95, 89, 96, 97, 98, 93,95,97,98,99 ],
-        label: 'Quote vs NBS VS Bill Match % Trend',
+        data: [ 93, 95, 92, 96, 97, 98.4, 93,95,97,96.5,94,96, 97, 93, 96, 97, 94, 93,95,97,94,93,97, 95, 93, 96, 97, 95.2, 93,95,97,93.3,96,97.5, 95, 97.4, 96, 97, 93.3, 93,95,97,98,94 ],
+        label: 'Quote to Bill Match',
         backgroundColor: 'rgba(77,83,96,0.2)',
         borderColor: 'rgba(77,83,96,1)',
         pointBackgroundColor: 'rgba(77,83,96,1)',
@@ -74,20 +74,22 @@ export class DashboardLineChartComponent {
         pointHoverBorderColor: 'rgba(77,83,96,1)',
       },
       {
-        data: [ 97, 87, 90, 87, 94, 97, 98,94,94,95,96,98, 93, 96, 93, 95, 87, 88,98,93,95,91,83, 87, 90, 87, 94, 97, 98,94,94,95,96,98, 93, 96, 93, 95, 87, 88,98,93,95,91 ],
-        label: '',
+        data: [ 97, 94, 95, 97, 94, 97, 98,94,94,95,96,98, 93, 96, 93, 95, 97,94,96,93,95,90,93, 97, 94, 96, 94, 97, 98,94,94,95,96,98, 93, 96, 93, 95, 97, 98,95,93,97,93 ],
+        label: 'Quote to NBS Match',
         pointBackgroundColor: 'rgba(77,83,96,1)',
         pointHoverBackgroundColor: '#fff',
         pointHoverBorderColor: 'rgba(77,83,96,1)',
        }
-      //,
-      // {
-      //   data: [ 81, 84, 98, 89, 94, 95, 97,98,93,94,96,98, 92, 89, 99, 93, 94, 99,92,99,93,97 ],
-      //   label: '',
-      //   pointBackgroundColor: 'rgba(77,83,96,1)',
-      //   pointHoverBackgroundColor: '#fff',
-      //   pointHoverBorderColor: 'rgba(77,83,96,1)',
-      // }
+      ,
+      {
+        data: [ 95, 97, 98, 94, 93, 95, 97,98,93,94,96,97, 95, 94, 99, 93, 94, 96,92,95,93,97,96,98,94,95,97,94, 93, 96, 93, 95, 93, 95, 92, 96, 97, 98, 93,95,94,97 ],
+        label: 'NBS to Bill Match',
+        pointBackgroundColor: 'rgba(77,83,96,1)',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgba(77,83,96,1)',
+        // borderColor: 'rgba(237, 157, 232,1)',
+
+      }
     ]
   };
   public lineChartOptions: ChartOptions<'line'> = {
